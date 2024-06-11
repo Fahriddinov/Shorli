@@ -123,6 +123,11 @@ color: white;
 border-radius: 10px;
 }
 
+.shorten:active{
+    background-color: greenyellow;
+    color: black;
+}
+
 .main-three{
     margin: 200px 0 0 0;
     position: relative;
@@ -148,6 +153,11 @@ background: #2BD0D0;
 border-radius: 30px;
 border: none;
 margin: 10px 0 0 650px;
+transition: 1s;
+}
+
+.start:hover{
+    background-color: black;
 }
 
 .footer{
